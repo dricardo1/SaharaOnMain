@@ -201,7 +201,7 @@ div.more a {
 
 .hero-logo h1 {
   font-size: 6em;
-  margin: 0 0.5em 0 auto;
+  margin: 1rem auto;
 }
 
 h2.font-weight-bold {
@@ -279,6 +279,10 @@ a.menu-download-link {
   padding: 2em 0 0 0;
 }
 
+#main-navbar > div.container > a > img {
+  margin-right: .5em;
+}
+
 .card-img {
   width: calc(100% + 10px);
   margin: -2px 0px 0px -6px;
@@ -327,7 +331,6 @@ h2#main-title {
   font-size: 2.5em;
   font-weight: bold;
   color: #fcfcfc;
-  opacity: .9;
   padding: 2em 0 2em 4em;
   text-align: center;
 }
@@ -426,9 +429,10 @@ div.contact-title h2 {
     margin-top: 0.3em;
   }
 
-.logo-img {
+#menu-logo-img {
   width: 62px;
   height: 62px;
+  margin-right: .5rem !important;
 }
   
   #contact div.container {

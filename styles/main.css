@@ -102,7 +102,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #391304;    /* #aa2200;  rufous */ 
+  background-color: #391304; /* #aa2200;  rufous */
   color: #fcfcfc;
   font-family: "Lato", "Open Sans", sans-serif;
 }
@@ -123,7 +123,7 @@ p {
 }
 
 .gold {
-  color: #EFAA1C;
+  color: #efaa1c;
 }
 
 .accent-color,
@@ -140,8 +140,9 @@ div.more a {
 
 /* Navbar */
 
-
-.nav-link:active, .nav-link:focus, .nav-link:hover {
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
   color: #efaa1c;
 }
 
@@ -152,8 +153,8 @@ div.more a {
 }
 
 .nav-bg-color {
-    background: #391304;
-    border-bottom: 6px solid #2e410e;
+  background: #391304;
+  border-bottom: 6px solid #2e410e;
 }
 
 .btn-warning {
@@ -280,7 +281,7 @@ a.menu-download-link {
 }
 
 #main-navbar > div.container > a > img {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .card-img {
@@ -324,7 +325,7 @@ h2#main-title {
 }
 
 #gold-p {
-  color: #EFAA1C;
+  color: #efaa1c;
 }
 
 .image-section h2 {
@@ -343,7 +344,7 @@ h2#main-title {
   font-size: 3em;
   margin: 1em auto 0 auto !important;
   font-family: "Khand", "Lato", sans-serif;
-  color: #EFAA1C;
+  color: #efaa1c;
 }
 
 #contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
@@ -369,21 +370,22 @@ div.contact-title h2 {
 }
 
 .contact-title p {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 #contact-heading.contact-h1 {
   font-size: 4em !important;
 }
 
-.mb-5, .my-5 {
-  margin-bottom: 2rem!important;
+.mb-5,
+.my-5 {
+  margin-bottom: 2rem !important;
 }
 
 #location {
   max-width: 100%;
   height: 100vh;
-  background-image: url("../img/map-som-1.png");
+  background-image: url("../img/map-som-1-min.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: contain;
@@ -392,7 +394,7 @@ div.contact-title h2 {
 }
 
 #contact-margin > div > p:nth-child(5) > a {
-  color: #DAA520;
+  color: #daa520;
   text-decoration: none;
 }
 
@@ -405,7 +407,7 @@ div.contact-title h2 {
   #hero {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/pasha-chicken.jpg");
+    background-image: url("../img/pasha-chicken-min.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,22 +432,22 @@ div.contact-title h2 {
     margin-top: 0.3em;
   }
 
-#menu-logo-img {
-  width: 62px;
-  height: 62px;
-  margin-right: .5rem !important;
-}
-  
+  #menu-logo-img {
+    width: 62px;
+    height: 62px;
+    margin-right: 0.5rem !important;
+  }
+
   #contact div.container {
     margin-top: 8vh;
   }
 
-#donar {
-  font-size: .5em;
+  #donar {
+    font-size: 0.5em;
+  }
 }
 
 @media (min-width: 370px) and (max-width: 700px) {
-    
   #contact div.container {
     margin-top: 5vh;
   }

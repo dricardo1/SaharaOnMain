@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/* Font Awesome SVG icons (code-solid, magic-solid, pencil-ruler-solid) are licensed under the Creative Commons Attribution 4.0 International license: https://fontawesome.com/license */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 1.4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #391304;
+  scroll-behavior: smooth; /* Thanks Chris Coyier @ CSS-tricks.com */
+}
+
+/*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+
+::-moz-selection {
+  background: #fcfcfc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #ffffff;
+  text-shadow: none;
+}
+
+/*
+   * A better looking default horizontal rule
+   */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+   * Remove default fieldset styles.
+   */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+   * Allow only vertical resizing of textareas.
+   */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #391304;    /* #aa2200;  rufous */ 
+  color: #fcfcfc;
+  font-family: "Lato", "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Khand", sans-serif;
+  color: #fcfcfc; /* bistre */
+}
+
+p {
+  font-family: "Lato", "Open Sans", sans-serif;
+  font-size: 1.25em;
+  color: #fcfcfc;
+}
+
+.gold {
+  color: #EFAA1C;
+}
+
+.accent-color,
+.card-text {
+  color: #33251f; /* bistre */
+}
+
+.accent-text,
+h3.card-title a,
+div.more a {
+  color: #33251f;
+  font-size: 1.5em;
+}
+
+/* Navbar */
+
+
+.nav-link:active, .nav-link:focus, .nav-link:visited, .nav-link:hover {
+  color: gold;
+}
+
+.container a,
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bg-color {
+    background: #391304;
+    border-bottom: 10px solid #2e410e;
+}
+
+.btn-warning {
+  background-color: #efaa1c !important;
+  color: #222 !important;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 9px;
+}
+
+.btn-warning:hover {
+  background-color: goldenrod !important;
+  text-decoration: none;
+  color: #222 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.nav-item {
+  font-size: 1.5em;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+#hero {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/pasha-chicken.jpg") top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero .hero-logo {
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+}
+
+.hero-logo h1 {
+  font-size: 6em;
+  margin: 0 0.5em 0 auto;
+}
+
+h2.font-weight-bold {
+  font-family: "Lato", "Open Sans", Verdana, sans-serif;
+  margin: 1em;
+  font-size: 1.5rem;
+}
+
+#hero .hero-container {
+  display: table-cell;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.cta {
+  margin: 0 auto 3em auto;
+}
+
+a.menu-link {
+  color: #fcfcfc;
+  font-size: 1.5em;
+  margin: 3em;
+}
+
+a.menu-download-link {
+  color: #efaa1c;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+#menu {
+  padding: none !important;
+}
+
+#contact {
+  width: 100%;
+  height: auto;
+  background-color: #391304;
+  background-image: url("../img/Sahara-On-Main-sidewalk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%); */
+  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
+}
+
+#contact image {
+  opacity: 0.5;
+}
+
+#contact-margin {
+  margin: 2em 5em;
+}
+
+#image {
+  width: 100%;
+  height: 100vh;
+  margin: 8vh auto 0 auto;
+  /* padding: 1vh 0; */
+  background-color: #391304;
+  background-image: url("../img/dining-elegance-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
+}
+
+.image-section {
+  margin-top: 10vh;
+  padding: 2em 0 0 0;
+}
+
+.card-img {
+  width: calc(100% + 10px);
+  margin: -2px 0px 0px -6px;
+  overflow: hidden;
+}
+
+.card {
+  margin-bottom: 10vh !important;
+}
+
+#contact.section-title {
+  margin: 10vh 0 5vh 2vh;
+}
+
+#contact div.container {
+  padding: 3vw;
+}
+
+h2#main-title {
+  font-size: 4em;
+  margin: 1em 1.1em 0 0;
+  font-family: "Khand", "Lato", sans-serif;
+}
+
+.section-title p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fcfcfc;
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+#contact-padding p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fcfcfc;
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+#gold-p {
+  color: #EFAA1C;
+}
+
+.image-section h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fcfcfc;
+  opacity: .9;
+  padding: 2em 0 2em 4em;
+  text-align: center;
+}
+
+.section-title div.row {
+  padding-left: 3vw;
+}
+
+#contact-section {
+  font-size: 2em;
+  margin: 1em auto 0 auto !important;
+  font-family: "Khand", "Lato", sans-serif;
+  color: #EFAA1C;
+}
+
+#contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
+  margin-top: -4vh;
+}
+
+div.more a:hover {
+  color: #aa2200;
+}
+
+#mainMessage {
+  font-size: 2rem;
+  margin: 2em;
+}
+
+div.contact-title h2 {
+  font-size: 4em;
+  font-family: "Khand", "Lato", sans-serif;
+}
+
+.contact-title p {
+  font-size: .9em;
+}
+
+#contact-heading.contact-h1 {
+  font-size: 4em !important;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 2rem!important;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/pasha-chicken.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-logo h1 {
+    font-size: 4em;
+    margin: auto;
+  }
+
+  .navbar-brand img {
+    margin-right: 0.25rem;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+
+  #main-navbar {
+    margin-top: 0.3em;
+  }
+
+.logo-img {
+  width: 62px;
+  height: 62px;
+}
+  
+  #contact div.container {
+    margin-top: 8vh;
+  }
+
+#donar {
+  font-size: .5em;
+}
+
+@media (min-width: 370px) and (max-width: 700px) {
+    
+  #contact div.container {
+    margin-top: 5vh;
+  }
+}

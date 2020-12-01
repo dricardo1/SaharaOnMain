@@ -126,6 +126,8 @@ p {
   color: #efaa1c;
 }
 
+.gold
+
 .accent-color,
 .card-text {
   color: #33251f; /* bistre */
@@ -240,6 +242,10 @@ a.menu-download-link {
   padding: none !important;
 }
 
+#menu > div > p {
+  margin-bottom: 8vh;
+}
+
 #contact {
   width: 100%;
   height: auto;
@@ -249,8 +255,9 @@ a.menu-download-link {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%); */
-  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
+  /* clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%); */
+  clip-path: polygon(0 96%, 100% 90%, 100% 0, 91% 0, 78% 15%, 79% 0, 0 0);
+  
 }
 
 #contact image {
@@ -258,14 +265,12 @@ a.menu-download-link {
 }
 
 #contact-margin {
-  margin: 3vh auto;
+  margin: 0 auto;
 }
 
 #image {
   width: 100%;
   height: 100vh;
-  margin: 8vh auto 0 auto;
-  /* padding: 1vh 0; */
   background-color: #391304;
   background-image: url("../img/dining-elegance-3.jpg");
   background-position: center;
@@ -275,9 +280,8 @@ a.menu-download-link {
   clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
 }
 
-.image-section {
-  margin-top: 10vh;
-  padding: 2em 0 0 0;
+#image > div > div > h1 {
+  padding: 40vh 0;
 }
 
 #main-navbar > div.container > a > img {
@@ -332,7 +336,7 @@ h2#main-title {
   font-size: 2.5em;
   font-weight: bold;
   color: #fcfcfc;
-  padding: 2em 0 2em 4em;
+  padding: 0;
   text-align: center;
 }
 
@@ -381,15 +385,8 @@ div.contact-title h2 {
   margin-bottom: 2rem !important;
 }
 
-#location {
+img, #location {
   max-width: 100%;
-  height: 100vh;
-  background-image: url("../img/map-som-1-min.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 0;
-  margin-top: 5vh;
 }
 
 #contact-margin > div > p:nth-child(5) > a {

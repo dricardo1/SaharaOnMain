@@ -1,8 +1,7 @@
 let messageArray = [
   "Flavors As Exotic As Morocco!",
   "We Are Open To Serve!",
-  "Authentic Mediterranean  Cuisine",
-  "Savor A Pallette Of Fine Flavors...",
+  "Authentic Mediterranean Food"
 ];
 let messageIndex = 0;
 

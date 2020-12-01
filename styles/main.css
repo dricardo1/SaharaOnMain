@@ -403,6 +403,10 @@ div.contact-title h2 {
   margin: 0;
 }
 
+#footer-p {
+  font-size: .75rem;
+}
+
 @media only screen and (max-device-width: 1024px) {
   #hero {
     width: 100%;

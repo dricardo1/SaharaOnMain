@@ -141,8 +141,8 @@ div.more a {
 /* Navbar */
 
 
-.nav-link:active, .nav-link:focus, .nav-link:visited, .nav-link:hover {
-  color: gold;
+.nav-link:active, .nav-link:focus, .nav-link:hover {
+  color: #efaa1c;
 }
 
 .container a,
@@ -153,7 +153,7 @@ div.more a {
 
 .nav-bg-color {
     background: #391304;
-    border-bottom: 10px solid #2e410e;
+    border-bottom: 6px solid #2e410e;
 }
 
 .btn-warning {
@@ -388,6 +388,7 @@ div.contact-title h2 {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 0;
+  margin-top: 5vh;
 }
 
 #contact-margin > div > p:nth-child(5) > a {

@@ -243,7 +243,7 @@ a.menu-download-link {
   width: 100%;
   height: auto;
   background-color: #391304;
-  background-image: url("../img/Sahara-On-Main-sidewalk.jpg");
+  background-image: url("../img/Sahara-On-Main-sidewalk-dk.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,7 +337,7 @@ h2#main-title {
 }
 
 #contact-section {
-  font-size: 2em;
+  font-size: 3em;
   margin: 1em auto 0 auto !important;
   font-family: "Khand", "Lato", sans-serif;
   color: #EFAA1C;
@@ -345,6 +345,10 @@ h2#main-title {
 
 #contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
   margin-top: -4vh;
+}
+
+#contact-margin > div > p.text-center.font-weight-bold.contact-h1 {
+  margin: 0;
 }
 
 div.more a:hover {
@@ -371,6 +375,26 @@ div.contact-title h2 {
 
 .mb-5, .my-5 {
   margin-bottom: 2rem!important;
+}
+
+#location {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url("../img/map-som-1.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+}
+
+#contact-margin > div > p:nth-child(5) > a {
+  color: #DAA520;
+  text-decoration: none;
+}
+
+#contact-margin > div > h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
 @media only screen and (max-device-width: 1024px) {

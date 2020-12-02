@@ -277,7 +277,7 @@ a.menu-download-link {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
+  clip-path: polygon(0 10%, 100% 2%, 100% 95%, 0 100%);
 }
 
 #image > div > div > h1 {

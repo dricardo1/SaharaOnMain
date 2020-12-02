@@ -377,7 +377,7 @@ div.contact-title h2 {
 }
 
 #contact-heading.contact-h1 {
-  font-size: 4em !important;
+  font-size: 3rem;
 }
 
 .mb-5,
@@ -429,7 +429,7 @@ img, #location {
   }
 
   #main-navbar {
-    margin-top: 0.3em;
+    margin-top: 0.5em;
   }
 
   #menu-logo-img {
@@ -451,4 +451,9 @@ img, #location {
   #contact div.container {
     margin-top: 5vh;
   }
+
+  #main-navbar {
+    margin-top: 1vh;
+    padding-bottom: 2vh;
+}
 }

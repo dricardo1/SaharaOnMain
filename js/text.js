@@ -1,8 +1,8 @@
 let messageArray = [
+  "Now Accepting CarolinaCa$h!"
   "Experience Moroccan Flavor",
   "Now Accepting CarolinaCa$h!",
   "Authentic Mediterranean Food",
-  "Now Accepting CarolinaCa$h!"
 ];
 let messageIndex = 0;
 

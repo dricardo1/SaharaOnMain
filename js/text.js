@@ -1,5 +1,5 @@
 let messageArray = [
-  "Now Accepting CarolinaCa$h!"
+  "Now Accepting CarolinaCa$h!",
   "Experience Moroccan Flavor",
   "Now Accepting CarolinaCa$h!",
   "Authentic Mediterranean Food",

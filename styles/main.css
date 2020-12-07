@@ -19,6 +19,7 @@ html {
   align-items: center;
   background-color: #391304;
   scroll-behavior: smooth; /* Thanks Chris Coyier @ CSS-tricks.com */
+  overflow-x: hidden;
 }
 
 /*

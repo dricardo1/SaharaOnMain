@@ -333,8 +333,8 @@ h2#main-title {
   color: #efaa1c;
 }
 
-.image-section h2 {
-  font-size: 2.5em;
+div.section-title h1 {
+  font-size: 3rem;
   font-weight: bold;
   color: #fcfcfc;
   padding: 0;

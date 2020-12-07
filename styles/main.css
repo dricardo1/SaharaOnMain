@@ -289,6 +289,10 @@ a.menu-download-link {
   margin-right: 0.5em;
 }
 
+#main-navbar {
+  padding: .5rem 1.25rem;
+}
+
 .card-img {
   width: calc(100% + 10px);
   margin: -2px 0px 0px -6px;
@@ -431,6 +435,10 @@ img, #location {
 
   #main-navbar {
     margin-top: 0.5em;
+  }
+
+  #mainNav {
+    padding: 0 1vw 0 0 !important;  
   }
 
   #menu-logo-img {

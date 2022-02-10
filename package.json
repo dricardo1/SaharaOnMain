@@ -1,0 +1,19 @@
+{
+  "name": "saharaonmain",
+  "homepage": "https://saharaonmaincolumbia.com/",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dricardo1/SaharaOnMain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dricardo1/SaharaOnMain/issues"
+  }
+}

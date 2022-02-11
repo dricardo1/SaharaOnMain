@@ -3,8 +3,7 @@
   "homepage": "https://saharaonmaincolumbia.com/",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
+   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +14,18 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dricardo1/SaharaOnMain/issues"
+  },
+    "name": "my-project",
+    "source": "index.html",
+    "scripts": {
+      "start": "parcel",
+      "build": "parcel build"
+    },
+  "dependencies": {
+    "parcel": "^2.3.1"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.3.1",
+    "@parcel/transformer-webmanifest": "^2.3.1"
   }
 }

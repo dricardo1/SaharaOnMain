@@ -278,6 +278,10 @@ a.menu-download-link {
   clip-path: polygon(0 10%, 100% 2%, 100% 95%, 0 100%);
 }
 
+.img-div {
+  margin: 30px auto;
+}
+
 #image > div > div > h1 {
   padding: 40vh 0;
 }

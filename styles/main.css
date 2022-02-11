@@ -162,7 +162,7 @@ div.more a {
   background-color: #efaa1c !important;
   color: #222 !important;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.25rem;
   padding: 0.5em;
   border-radius: 9px;
 }
@@ -286,12 +286,12 @@ a.menu-download-link {
   padding: 40vh 0;
 }
 
-#main-navbar > div.container > a > img {
+/* #main-navbar > div.container > a > img {
   margin-right: 0.5em;
-}
+} */
 
 #main-navbar {
-  padding: 0.5rem 1.25rem;
+  padding: 1rem;
 }
 
 .card-img {
@@ -334,12 +334,12 @@ h2#main-title {
   text-align: center;
 }
 
-#gold-p {
+.gold-p, .gold {
   color: #efaa1c;
 }
 
 div.section-title h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #fcfcfc;
   padding: 0;
@@ -348,13 +348,6 @@ div.section-title h1 {
 
 .section-title div.row {
   padding-left: 3vw;
-}
-
-#contact-section {
-  font-size: 3em;
-  margin: 1em auto 0 auto !important;
-  font-family: "Khand", "Lato", sans-serif;
-  color: #efaa1c;
 }
 
 #contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
@@ -402,9 +395,17 @@ img,
 }
 
 #contact-margin > div > h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
 }
+
+#contact-section {
+  font-size: 4rem;
+  margin: 1em auto 0 auto !important;
+  font-family: "Khand", "Lato", sans-serif;
+  color: #efaa1c;
+}
+
 
 #footer-p {
   font-size: 0.75rem;

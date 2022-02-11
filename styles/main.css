@@ -113,12 +113,12 @@ h2,
 h3,
 h4,
 nav {
-  font-family: "Khand", sans-serif;
+  font-family: "Khand", "Lato", sans-serif;
   color: #fcfcfc; /* bistre */
 }
 
 p {
-  font-family: "Lato", "Open Sans", sans-serif;
+  font-family: "Khand", "Lato", sans-serif;
   font-size: 1.25em;
   color: #fcfcfc;
 }
@@ -202,12 +202,12 @@ div.more a {
 }
 
 .hero-logo h1 {
-  font-size: 6em;
+  font-size: 8rem;
   margin: 1rem auto;
 }
 
 h2.font-weight-bold {
-  font-family: "Lato", "Open Sans", Verdana, sans-serif;
+  font-family: "Khand", "Lato", sans-serif;
   margin: 1em;
   font-size: 1.5rem;
 }
@@ -364,8 +364,8 @@ div.more a:hover {
 
 #mainMessage {
   font-size: 2.5rem;
-  font-family: "Khand", sans-serif;
-  color: #fcfcfc; /* bistre */
+  font-family: "Khand", "Lato", sans-serif;
+  color: #efaa1c; 
 }
 
 div.contact-title h2 {
@@ -477,4 +477,13 @@ img,
     margin-top: 1vh;
     padding-bottom: 2vh;
   }
+}
+
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+ @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }

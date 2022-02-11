@@ -286,7 +286,7 @@ a.menu-download-link {
 }
 
 .img-div {
-  margin: 30px auto;
+  margin: 0 auto 20px auto;
 }
 
 #image > div > div > h1 {
@@ -317,7 +317,8 @@ a.menu-download-link {
 
 h2#main-title {
   font-size: 4em;
-  margin: 3vh auto;
+  margin: 3vh;
+  padding: 0;
   font-family: "Khand", "Lato", sans-serif;
 }
 
